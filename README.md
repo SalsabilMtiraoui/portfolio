@@ -1,6 +1,7 @@
 # 🧑‍💻 Salsabil Mtiraoui — Portfolio
 
 Personal portfolio website built with **React + TypeScript**, showcasing projects, skills, and experience.
+This portfolio was created with the assistance of AI (Claude) as part of my learning process. Due to time constraints, I used AI tools to help structure and implement the website so that I could present a working portfolio while actively learning web development concepts. My goal was not only to showcase my projects but also to experiment with modern development tools and accelerate my understanding of front-end technologies. I reviewed, adapted, and learned from the generated code throughout the process.
 
 ## 🚀 Getting Started
 
