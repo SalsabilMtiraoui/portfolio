@@ -46,6 +46,3 @@ src/
 
 React 18 · TypeScript · CSS · Vite
 
-## 📝 To customize
-
-Edit `src/data/content.ts` to update all personal info, projects, and skills — no need to touch any components.
