@@ -174,26 +174,15 @@ Two independent statistical studies using R, applied to real-world datasets with
 End-to-end statistical analysis of the **Ames Housing dataset** (Kaggle) to predict residential sale prices. The project applies a broad range of computational statistics techniques, from feature engineering and factorial design to multiple regression and time series modelling — with a focus on understanding the methods rather than purely maximising predictive performance.
 
 ### What We Built
-- **Data preprocessing pipeline**: classified 79 variables into quantitative, binary, and categorical subsets, each handled with type-appropriate statistical treatment; dropped incomplete columns and ID fields
-- **Feature selection for quantitative variables**: custom `descriptive_stats` function extending `.describe()` with 95% confidence intervals; `hypothesis_test` function computing Pearson correlation coefficients and p-values against `SalePrice`; custom ranking function combining correlation strength, p-value significance, and feature variance
-- **Feature selection for categorical variables**: `rank_categorical_vars` function using ANOVA p-values and mean range to score and rank features by influence on sale price
-- **2³ Factorial Design**: applied full factorial design on three binary variables (`Street`, `Utilities`, `CentralAir`), including all main effects and interaction terms; critically analysed its limits (R² = 0.064, multicollinearity, sparse factor combinations) and justified why more scalable methods were preferred
-- **Multiple Linear Regression (OLS)**: built a model combining top quantitative variables (Pearson / p-value selection) and top 10 categorical variables (ANOVA ranking), one-hot encoded; achieved **R² = 0.843** and adjusted R² = 0.833 on 1460 observations
-- **Residual diagnostics**: Omnibus test, Jarque-Bera test, skewness/kurtosis analysis, Durbin-Watson test (DW = 1.912, no autocorrelation), condition number analysis (multicollinearity flagged); Q-Q plots, residuals vs. fitted, histogram of residuals
-- **Interpretation of categorical coefficients**: identified the 20 most impactful categories (e.g. `Neighborhood_NoRidge`, `SaleType_New` → positive; `KitchenQual_Fa`, `Exterior1st_ImStucc` → negative)
-- **Time Series Analysis**: aggregated monthly average sale prices (Jan 2006 – Jul 2010); applied 6-month and 12-month **moving average smoothing** to reveal a downward trend linked to the **2008 Subprime Mortgage Crisis**
-- **Stationarity testing**: Augmented Dickey-Fuller (ADF) test → p-value = 0.0036, confirmed stationarity without differencing
-- **ACF / PACF analysis**: identified a dominant spike at lag 4, no seasonal structure detected
-- **ARIMA model selection**: compared AR(4), MA(4), ARMA(4,4), ARIMA(0,0,4), and SARIMAX(1,0,1)(1,0,0,12) by AIC/BIC; selected **ARIMA(4,0,0)** as the best-fit, most parsimonious model
+### What We Built
+- **Data preprocessing**: classified 79 variables into quantitative, binary, and categorical subsets with type-appropriate treatment
+- **Feature selection**: Pearson correlation + p-value ranking for quantitative variables; ANOVA-based scoring for categorical variables
+- **2³ Factorial Design**: applied on three binary variables, critically analysed its limits (R² = 0.064) and justified the shift to more scalable methods
+- **Multiple Linear Regression (OLS)**: combined top quantitative and top 10 categorical variables (one-hot encoded) — achieved **R² = 0.843** on 1460 observations
+- **Residual diagnostics**: Omnibus, Jarque-Bera, Durbin-Watson (DW = 1.912), Q-Q plots, and condition number analysis (multicollinearity flagged)
+- **Time Series Analysis**: monthly average sale prices (2006–2010), moving average smoothing (MA6 / MA12), downward trend linked to the **2008 Subprime Mortgage Crisis**
+- **ARIMA model selection**: ADF stationarity test (p = 0.0036), ACF/PACF analysis, comparison of AR/MA/ARMA/SARIMAX models → selected **ARIMA(4,0,0)** (AIC: 1226.86)
 
-### Results
-| Metric | Value |
-|---|---|
-| R² (OLS regression) | **0.843** |
-| Adjusted R² | 0.833 |
-| F-statistic p-value | ≈ 0 |
-| ADF test p-value | 0.0036 |
-| Best time series model | ARIMA(4,0,0) — AIC: 1226.86 |
 
 ### Tools & Technologies
 `Python` `pandas` `NumPy` `statsmodels (OLS, ARIMA, SARIMAX)` `scipy.stats (Pearson, ANOVA)` `Matplotlib` `One-hot encoding` `ACF / PACF` `ADF test` `2ᵏ Factorial Design` `Jupyter Notebook` `Google Colab` `Kaggle datasets`
