@@ -2,20 +2,20 @@
 
 Welcome to my GitHub portfolio. This page showcases projects completed during my Bachelor's degree, each carried out in collaboration with a team. They reflect the technical and methodological skills I developed throughout my studies.
 
-> ⚠️ **A note on authorship**: All projects listed here are **group work**. The code, analyses, and deliverables are the result of collective collaboration. I do not claim sole ownership over any of these works — I present them solely as evidence of my active participation and the skills I developed in an academic context.
+> ⚠️ **A note on authorship**: All projects listed here are **group work**. The code, analyses, and deliverables are the result of collective collaboration. I do not claim sole ownership over any of these works, I present them solely as evidence of my active participation and the skills I developed in an academic context.
 
 ---
 
 ## Table of Contents
 
-- [Hopfield Neural Network](#-hopfield-neural-network--bio-210-epfl)
-- [Cloud Computing & Big Data — Azure Blob Storage Benchmarking](#️-cloud-computing--big-data--azure-blob-storage-benchmarking)
-- [Mapping the Philosophical Field — Wikidata](#-mapping-the-philosophical-field--wikidata)
-- [Database Project — "Flans" Management System](#️-database-project--flans-management-system)
-- [Languages & Compilers — SonicRPG Interpreter (ANTLR)](#️-languages--compilers--sonicrpg-interpreter-antlr)
-- [Statistical Learning — R Projects](#-statistical-learning--r-projects)
-- [Computational Statistics — Predicting Home Prices](#-computational-statistics--predicting-home-prices)
-- [Cybersecurity — TryHackMe Notes & Writeups](#-cybersecurity--tryhackme-notes--writeups)
+- [Software Engineering for Life Science: Hopfield Neural Network](#-hopfield-neural-network--bio-210-epfl)
+- [Cloud Computing & Big Data: Azure Blob Storage Benchmarking](#️-cloud-computing--big-data--azure-blob-storage-benchmarking)
+- [Mapping the Philosophical Field: Wikidata](#-mapping-the-philosophical-field--wikidata)
+- [Database Project: "Flans" Management System](#️-database-project--flans-management-system)
+- [Languages & Compilers: SonicRPG Interpreter (ANTLR)](#️-languages--compilers--sonicrpg-interpreter-antlr)
+- [Statistical Learning: R Projects](#-statistical-learning--r-projects)
+- [Computational Statistics: Predicting Home Prices](#-computational-statistics--predicting-home-prices)
+- [Cybersecurity: TryHackMe Notes & Writeups](#-cybersecurity--tryhackme-notes--writeups)
 
 ---
 
@@ -46,7 +46,7 @@ Simulation of associative memory using the Hopfield neural network model. The pr
 
 ## Cloud Computing & Big Data — Azure Blob Storage Benchmarking
 
-**Collaboration:** Group project in Cloud Computing & Big Data course (CCBD), Ibraimov Erulan, Salsabil Mtiraoui
+**Collaboration:** Group project for the Cloud Computing & Big Data course (CCBD), Ibraimov Erulan, Salsabil Mtiraoui
 [CCBD-variant1](https://github.com/SalsabilMtiraoui/CCBD-variant1)
 
 ### Overview
@@ -69,7 +69,7 @@ Comparative benchmark of storage and query performance on large-scale synthetic 
 ## Mapping the Philosophical Field — Wikidata
 
 Project in Data Science / Digital Humanities course   
-🔗 [philosophers](https://github.com/SalsabilMtiraoui/philosophers)
+ [philosophers](https://github.com/SalsabilMtiraoui/philosophers)
 
 ### Overview
 Modelling the structure of Western philosophy using data extracted from **Wikidata** (Wikipedia's A–C list of philosophers). Socio-demographic analysis, intellectual network analysis, and temporal evolution of philosophical schools of thought.
@@ -88,7 +88,7 @@ Modelling the structure of Western philosophy using data extracted from **Wikida
 
 ---
 
-## Database Project — "Flans" Management System
+## Database Project: "Flans" Management System
 
 **Collaboration:** Group project in Database course, Mariana Bessa Pires, Tara Shareef, Salsabil Mtiraoui, Iseline Lomami  
  [Data-Base-Project_Flan](https://github.com/SalsabilMtiraoui/Data-Base-Project_Flan)
