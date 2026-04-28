@@ -1,4 +1,4 @@
-# Portfolio — Bachelor's Projects
+# Portfolio : Bachelor's Projects
 
 This page showcases projects completed during my Bachelor's degree, each carried out in collaboration with a team. They reflect the technical and methodological skills I developed throughout my studies.
 
