@@ -8,14 +8,14 @@ Welcome to my GitHub portfolio. This page showcases projects completed during my
 
 ## Table of Contents
 
-- [Software Engineering for Life Science: Hopfield Neural Network]
-- [Cloud Computing & Big Data: Azure Blob Storage Benchmarking]
-- [Mapping the Philosophical Field: Wikidata](#-mapping-the-philosophical-field--wikidata)
-- [Database Project: "Flans" Management System](#️-database-project--flans-management-system)
-- [Languages & Compilers: SonicRPG Interpreter (ANTLR)](#️-languages--compilers--sonicrpg-interpreter-antlr)
-- [Statistical Learning: R Projects](#-statistical-learning--r-projects)
-- [Computational Statistics: Predicting Home Prices](#-computational-statistics--predicting-home-prices)
-- [Cybersecurity: TryHackMe Notes & Writeups](#-cybersecurity--tryhackme-notes--writeups)
+- Software Engineering for Life Science: Hopfield Neural Network
+- Cloud Computing & Big Data: Azure Blob Storage Benchmarking
+- Mapping the Philosophical Field: Wikidata
+- Database Project: "Flans" Management System
+- Languages & Compilers: SonicRPG Interpreter (ANTLR)
+- Statistical Learning: R Projects
+- Computational Statistics: Predicting Home Prices
+- Cybersecurity: TryHackMe Notes & Writeups
 
 ---
 
