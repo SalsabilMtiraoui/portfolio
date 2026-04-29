@@ -46,7 +46,7 @@ Simulation of associative memory using the Hopfield neural network model. The pr
 
 ## Cloud Computing & Big Data — Azure Blob Storage Benchmarking
 
-**Collaboration:** Group project for the Cloud Computing & Big Data course (CCBD), Ibraimov Erulan, Salsabil Mtiraoui
+**Collaboration:** Group project for the Cloud Computing & Big Data course (CCBD), Ibraimov Erulan, Salsabil Mtiraoui (still ongoing)
 [CCBD-variant1](https://github.com/SalsabilMtiraoui/CCBD-variant1)
 
 ### Overview
