@@ -197,14 +197,14 @@ End-to-end statistical analysis of the **Ames Housing dataset** (Kaggle) to pred
 ### Overview
 Personal cybersecurity knowledge base structured with **Obsidian**, covering the *Junior Pentester Path* on TryHackMe and offensive security methodologies.
 
-### What I Built
+### What are my goals
 - Full documentation of the **JR Pentester Path** (10 modules): Intro to Cybersecurity, Pre-Security, Introduction to Pentesting, Linux Fundamentals, Web Fundamentals, Burp Suite, Network Security, Vulnerability Research, Metasploit, Privilege Escalation
 - **Tool reference sheets**: Nmap, Burp Suite, Metasploit, Hydra, Gobuster, Wireshark
-- **Methodologies**: 5 phases of pentesting (Recon → Scanning → Exploitation → Post-Exploitation → Reporting), OWASP Top 10, Recon Checklist
 - **Documented vulnerabilities**: SQLi, XSS, Linux Privilege Escalation
 - **CTF writeups** (Capture The Flag)
 - Cheatsheets: Linux commands, reverse shells
-- Progression dashboard with **Dataview** (Obsidian plugin)
+- Progression dashboard with **Dataview** (Obsidian plugin, planning on turning it into a "Jarvis")
+- Get ready for the Security + certification
 
 ### Tools & Technologies
 `Obsidian` `TryHackMe` `Nmap` `Burp Suite` `Metasploit` `Hydra` `Gobuster` `Wireshark` `Linux` `OWASP` `CTF` `OSINT`
