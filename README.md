@@ -1,6 +1,6 @@
 # Portfolio : Bachelor's Projects
 
-Welcome to my GitHub portfolio. This page showcases projects completed during my Bachelor's degree, each carried out in collaboration with a team. They reflect the technical and methodological skills I developed throughout my studies.
+This page showcases projects completed during my Bachelor's degree, each carried out in collaboration with a team. They reflect the technical and methodological skills I developed throughout my studies.
 
 > ⚠️ **A note on authorship**: All projects listed here are **group work**. The code, analyses, and deliverables are the result of collective collaboration. I do not claim sole ownership over any of these works, I present them solely as evidence of my active participation and the skills I developed in an academic context.
 
