@@ -8,8 +8,8 @@ Welcome to my GitHub portfolio. This page showcases projects completed during my
 
 ## Table of Contents
 
-- [Software Engineering for Life Science: Hopfield Neural Network](#-hopfield-neural-network--bio-210-epfl)
-- [Cloud Computing & Big Data: Azure Blob Storage Benchmarking](#️-cloud-computing--big-data--azure-blob-storage-benchmarking)
+- [Software Engineering for Life Science: Hopfield Neural Network]
+- [Cloud Computing & Big Data: Azure Blob Storage Benchmarking]
 - [Mapping the Philosophical Field: Wikidata](#-mapping-the-philosophical-field--wikidata)
 - [Database Project: "Flans" Management System](#️-database-project--flans-management-system)
 - [Languages & Compilers: SonicRPG Interpreter (ANTLR)](#️-languages--compilers--sonicrpg-interpreter-antlr)
